@@ -34,6 +34,16 @@ First, you need to generate a .json file with all the values of your Design Syst
 ```
 
 
-## Step 2 - Converting the data from the .json file to any given language/technology
-First, you need to generate a .json file with all the values of your Design System.
-Then, we need to use Style Dictionary, a 
+## Step 2 - Converting the data in the .json file in a way any platform or language to consume
+Using **Style Dictionary**, a build system developed by Amazon, we can export the rules in the .json file to all the places we need them - iOS, Android, CSS, JS, HTML, style documentation, or anything you can think of. 
+
+```
+css/variables
+scss/variables
+less/variables
+compose/object
+android/resources
+ios-swift/class.swift
+ios-swift/enum.swift
+flutter/class.dart
+```
