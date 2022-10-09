@@ -47,3 +47,7 @@ ios-swift/class.swift
 ios-swift/enum.swift
 flutter/class.dart
 ```
+
+In this example I'll keep it simple and will only be exporting to SCSS and CSS variables.
+
+The configuration has been set up in the **config.json** file and by running `npm run build` the files will be generated and exported in the `/out` folder.
